@@ -107,7 +107,12 @@ def submit():
     #print(new_df__dummies)
     col=df_1['tenure']
     print(col)
-    col=col.append(pd.DataFrame([inputQuery19]), ignore_index = True)
+
+    inputQuery19=pd.DataFrame([inputQuery19])
+    col = pd.concat([inputQuery19,col.loc[:]]).reset_index(drop=True)
+    #below line is also to append the last row but since updated version of pip we cannot use but worked earlier
+    #col=col.append(pd.DataFrame(data=[inputQuery19]), ignore_index = True)
+
     print(col)
     #new_df__dummies.loc[new_df__dummies.tail(1),(len(new_df__dummies.columns)-1)] = inputQuery19
     new_df__dummies=new_df__dummies.join(col)

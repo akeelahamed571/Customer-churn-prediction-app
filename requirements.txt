@@ -54,7 +54,7 @@ et-xmlfile==1.0.1
 fastcache==1.1.0
 filelock==3.0.12
 flake8==3.8.3
-Flask==1.1.2
+Flask==1.1.1
 fonttools==4.37.3
 fsspec==0.7.4
 future==0.18.2
@@ -62,7 +62,7 @@ gevent @ file:///C:/ci/gevent_1593005471151/work
 glob2==0.7
 gmpy2==2.0.8
 greenlet==0.4.16
-gunicorn==20.1.0
+gunicorn==19.9.0
 h5py==2.10.0
 HeapDict==1.0.1
 html5lib @ file:///tmp/build/80754af9/html5lib_1593446221756/work
@@ -79,7 +79,7 @@ isort==4.3.21
 itsdangerous==1.1.0
 jdcal==1.4.1
 jedi @ file:///C:/ci/jedi_1592833825077/work
-Jinja2==2.11.3
+Jinja2==2.10
 joblib==1.2.0
 json5==0.9.5
 jsonschema==3.2.0
@@ -96,7 +96,7 @@ libarchive-c==2.9
 llvmlite==0.33.0+1.g022ab0f
 locket==0.2.0
 lxml @ file:///C:/ci/lxml_1594822774489/work
-MarkupSafe==1.1.1
+MarkupSafe==1.1.0
 matplotlib==3.6.0
 mccabe==0.6.1
 menuinst==1.4.16
@@ -225,7 +225,7 @@ urllib3==1.25.9
 watchdog @ file:///C:/ci/watchdog_1593447437088/work
 wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
 webencodings==0.5.1
-Werkzeug==1.0.1
+Werkzeug==0.15.5
 widgetsnbextension==3.5.1
 win-inet-pton==1.1.0
 win-unicode-console==0.5
